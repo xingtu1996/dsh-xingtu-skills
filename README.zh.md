@@ -52,4 +52,4 @@ dsh-xingtu-skills/
 
 ## 许可证
 
-MIT License。技能内容源于真实工程实践，公司敏感信息已全部脱敏。
+MIT License。技能内容源于真实工程实践。

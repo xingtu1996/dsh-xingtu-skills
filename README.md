@@ -52,4 +52,4 @@ dsh-xingtu-skills/
 
 ## License
 
-MIT License. Skills content derived from real production engineering practice; all company-sensitive information removed.
+MIT License. Skills distilled from real engineering practice.
