@@ -2,7 +2,7 @@
 
 > **26 production-grade AI agent skills, packaged as a standard DeepSeek Harness (DSH) plugin — one command to install.**
 
-[![MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE) [![npm](https://img.shields.io/npm/v/dsh-xingtu-skills)](https://www.npmjs.com/package/dsh-xingtu-skills)
+[![MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE) [![npm](https://img.shields.io/npm/v/dsh-xingtu-skills)](https://www.npmjs.com/package/dsh-xingtu-skills) [![downloads](https://img.shields.io/npm/dm/dsh-xingtu-skills)](https://www.npmjs.com/package/dsh-xingtu-skills) [![release](https://img.shields.io/github/v/release/xingtu1996/dsh-xingtu-skills)](https://github.com/xingtu1996/dsh-xingtu-skills/releases)
 
 ---
 
