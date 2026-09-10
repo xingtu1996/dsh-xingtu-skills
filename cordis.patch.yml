@@ -1,9 +1,9 @@
-***REMOVED*** dsh-xingtu-skills bundle layer: register all packaged XingTu skills as agent skills.
-***REMOVED*** This file is the `dsh.bundle.patch` layer (see package.json***REMOVED***dsh.bundle.patch).
-***REMOVED*** Layer semantics: a YAML array of row verbs; `insert` adds plugin rows to the
-***REMOVED*** composed config. Later layers override a row by `id` (whole-config replacement).
+# dsh-xingtu-skills bundle layer: register all packaged XingTu skills as agent skills.
+# This file is the `dsh.bundle.patch` layer (see package.json#dsh.bundle.patch).
+# Layer semantics: a YAML array of row verbs; `insert` adds plugin rows to the
+# composed config. Later layers override a row by `id` (whole-config replacement).
 - insert:
-    ***REMOVED*** `id`: stable row identifier used by later layers to override this row.
+    # `id`: stable row identifier used by later layers to override this row.
     - id: dsh-xingtu-skills
-      ***REMOVED*** `name`: the module the loader imports; resolves to this package's entry (package.json***REMOVED***main → index.js).
+      # `name`: the module the loader imports; resolves to this package's entry (package.json#main → index.js).
       name: dsh-xingtu-skills
