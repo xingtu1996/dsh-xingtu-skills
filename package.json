@@ -1,7 +1,7 @@
 {
   "name": "dsh-xingtu-skills",
-  "version": "0.1.0",
-  "description": "XingTu 26 production-grade AI agent skills, packaged as a DeepSeek Harness (DSH) skills plugin — token compression, code review, safe refactor, migration, evidence review & more. 26 个生产级 SKILL.md 技能，DSH 一键安装即用。",
+  "version": "0.1.1",
+  "description": "XingTu 29 production-grade AI agent skills, packaged as a DeepSeek Harness (DSH) skills plugin — token compression, code review, content review, safe refactor, migration, evidence review & more. 29 个生产级 SKILL.md 技能，DSH 一键安装即用。",
   "type": "module",
   "main": "lib/index.js",
   "license": "MIT",

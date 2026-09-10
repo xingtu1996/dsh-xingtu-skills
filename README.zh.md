@@ -1,6 +1,6 @@
 # dsh-xingtu-skills · XingTu 技能插件（DeepSeek Harness / DSH）
 
-> **26 个生产级 AI Agent 技能，打包成一个 DeepSeek Harness（DSH）标准插件，一条命令安装即用。**
+> **29 个生产级 AI Agent 技能，打包成一个 DeepSeek Harness（DSH）标准插件，一条命令安装即用。**
 
 [![MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE) [![npm](https://img.shields.io/npm/v/dsh-xingtu-skills)](https://www.npmjs.com/package/dsh-xingtu-skills) [![downloads](https://img.shields.io/npm/dm/dsh-xingtu-skills)](https://www.npmjs.com/package/dsh-xingtu-skills) [![release](https://img.shields.io/github/v/release/xingtu1996/dsh-xingtu-skills)](https://github.com/xingtu1996/dsh-xingtu-skills/releases)
 
@@ -8,7 +8,7 @@
 
 ## 这是什么
 
-本插件把 [xingtu-skills](https://github.com/xingtu1996/xingtu-skills) 的 **26 个生产级 SKILL.md 技能**打包为标准的 DeepSeek Harness 插件包。安装后，DSH 的会话技能目录会自动加载全部技能，按需触发（progressive disclosure），无需手动拷贝。
+本插件把 [xingtu-skills](https://github.com/xingtu1996/xingtu-skills) 的 **29 个生产级 SKILL.md 技能**打包为标准的 DeepSeek Harness 插件包。安装后，DSH 的会话技能目录会自动加载全部技能，按需触发（progressive disclosure），无需手动拷贝。
 
 每个技能遵循跨工具事实标准（`name + description + when_to_use`），同一份技能也兼容 Claude Code / CodeBuddy / Codex / Cursor / Gemini CLI。
 
@@ -19,16 +19,17 @@
 dsh plugin add dsh-xingtu-skills
 
 # 从 GitHub Release 压缩包安装
-dsh plugin add -w https://github.com/xingtu1996/dsh-xingtu-skills/releases/latest/download/dsh-xingtu-skills-0.1.0.tgz
+dsh plugin add -w https://github.com/xingtu1996/dsh-xingtu-skills/releases/latest/download/dsh-xingtu-skills-0.1.1.tgz
 ```
 
-## 技能清单（26）
+## 技能清单（29）
 
 | 系列 | 技能 |
 |---|---|
 | **Caveman · token 压缩** | `caveman` `caveman-commit` `caveman-compress` `caveman-discover` `caveman-evidence-review` `caveman-explore` `caveman-help` `caveman-learn` `caveman-manage` `caveman-optimize` `caveman-review` `caveman-setup` `caveman-stats` `cavecrew` |
 | **Ponytail · 极简与债务** | `ponytail` `ponytail-audit` `ponytail-debt` `ponytail-gain` `ponytail-help` `ponytail-review` |
 | **工程实践** | `investigate-first` `lean-build` `migration` `safe-refactor` `surgical-patch` `verify-and-stop` |
+| **内容创作 · 自媒体（行途）** | `adversarial-review` `codemax-report` `de-ai-flavor` |
 
 ## 插件结构
 
@@ -37,7 +38,7 @@ dsh-xingtu-skills/
 ├── package.json        # dsh.bundle.patch → ./cordis.patch.yml（标准插件声明）
 ├── cordis.patch.yml    # 插入本插件行（bundle layer）
 ├── lib/index.js        # 入口：apply() 逐个注册 skills/ 下的 SKILL.md
-└── skills/<name>/      # 26 个技能目录（含各自 SKILL.md 与资源）
+└── skills/<name>/      # 29 个技能目录（含各自 SKILL.md 与资源）
 ```
 
 - **插件契约**：导出 `name` + `apply(ctx)`（`inject: ['skills']`），全部贡献走 `ctx.effect()` / `ctx.skills.register()`，卸载自动清理。
