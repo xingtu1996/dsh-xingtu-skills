@@ -54,3 +54,11 @@ dsh-xingtu-skills/
 ## License
 
 MIT License. Skills distilled from real engineering practice.
+
+---
+
+## 关于作者 · 行途
+
+- 公众号「行途技术手记」（长文首发，微信搜索关注）
+- GitHub / X：`@xingtu1996` ｜ 博客：https://xingtu1996.github.io
+- 方法论旗舰仓：[xingtu-ai-engineering](https://github.com/xingtu1996/xingtu-ai-engineering)
