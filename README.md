@@ -29,7 +29,7 @@ dsh plugin add -w https://github.com/xingtu1996/dsh-xingtu-skills/releases/lates
 | **Caveman · token compression** | `caveman` `caveman-commit` `caveman-compress` `caveman-discover` `caveman-evidence-review` `caveman-explore` `caveman-help` `caveman-learn` `caveman-manage` `caveman-optimize` `caveman-review` `caveman-setup` `caveman-stats` `cavecrew` |
 | **Ponytail · minimalism & debt** | `ponytail` `ponytail-audit` `ponytail-debt` `ponytail-gain` `ponytail-help` `ponytail-review` |
 | **Engineering practice** | `investigate-first` `lean-build` `migration` `safe-refactor` `surgical-patch` `verify-and-stop` |
-| **Content & media (XingTu self-media)** | `adversarial-review` `codemax-report` `de-ai-flavor` `fact-check-gate` |
+| **Content & media (XingTu self-media)** | `adversarial-review` `ai-usage-report` `de-ai-flavor` `fact-check-gate` |
 
 ## Structure
 
