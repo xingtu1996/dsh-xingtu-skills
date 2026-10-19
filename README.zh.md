@@ -1,4 +1,4 @@
-# dsh-xingtu-skills · XingTu 技能插件（DeepSeek Harness / DSH）
+# dsh-xingtu-skills · 行途技术 技能插件（DeepSeek Harness / DSH）
 
 > **30 个生产级 AI Agent 技能，打包成一个 DeepSeek Harness（DSH）标准插件，一条命令安装即用。**
 
@@ -29,7 +29,7 @@ dsh plugin add -w https://github.com/xingtu1996/dsh-xingtu-skills/releases/lates
 | **Caveman · token 压缩** | `caveman` `caveman-commit` `caveman-compress` `caveman-discover` `caveman-evidence-review` `caveman-explore` `caveman-help` `caveman-learn` `caveman-manage` `caveman-optimize` `caveman-review` `caveman-setup` `caveman-stats` `cavecrew` |
 | **Ponytail · 极简与债务** | `ponytail` `ponytail-audit` `ponytail-debt` `ponytail-gain` `ponytail-help` `ponytail-review` |
 | **工程实践** | `investigate-first` `lean-build` `migration` `safe-refactor` `surgical-patch` `verify-and-stop` |
-| **内容创作 · 自媒体（行途）** | `adversarial-review` `ai-usage-report` `de-ai-flavor` `fact-check-gate` |
+| **内容创作 · 自媒体（行途技术）** | `adversarial-review` `ai-usage-report` `de-ai-flavor` `fact-check-gate` |
 
 ## 插件结构
 
@@ -48,7 +48,7 @@ dsh-xingtu-skills/
 ## 关联项目
 
 - [xingtu-skills](https://github.com/xingtu1996/xingtu-skills) — 技能源仓库（跨工具通用）
-- [xingtu-harness](https://github.com/xingtu1996/xingtu-harness) — 行途 AI 工程化脚手架（一键拉全）
+- [xingtu-harness](https://github.com/xingtu1996/xingtu-harness) — 行途技术 AI 工程化脚手架（一键拉全）
 - [xingtu-ai-engineering](https://github.com/xingtu1996/xingtu-ai-engineering) — 方法论旗舰仓
 
 ## 许可证

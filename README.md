@@ -1,4 +1,4 @@
-# dsh-xingtu-skills · XingTu Skills Plugin for DeepSeek Harness (DSH)
+# dsh-xingtu-skills · 行途技术 Skills Plugin for DeepSeek Harness (DSH)
 
 > **30 production-grade AI agent skills, packaged as a standard DeepSeek Harness (DSH) plugin — one command to install.**
 
@@ -29,7 +29,7 @@ dsh plugin add -w https://github.com/xingtu1996/dsh-xingtu-skills/releases/lates
 | **Caveman · token compression** | `caveman` `caveman-commit` `caveman-compress` `caveman-discover` `caveman-evidence-review` `caveman-explore` `caveman-help` `caveman-learn` `caveman-manage` `caveman-optimize` `caveman-review` `caveman-setup` `caveman-stats` `cavecrew` |
 | **Ponytail · minimalism & debt** | `ponytail` `ponytail-audit` `ponytail-debt` `ponytail-gain` `ponytail-help` `ponytail-review` |
 | **Engineering practice** | `investigate-first` `lean-build` `migration` `safe-refactor` `surgical-patch` `verify-and-stop` |
-| **Content & media (XingTu self-media)** | `adversarial-review` `ai-usage-report` `de-ai-flavor` `fact-check-gate` |
+| **Content & media (行途技术 self-media)** | `adversarial-review` `ai-usage-report` `de-ai-flavor` `fact-check-gate` |
 
 ## Structure
 
@@ -57,8 +57,8 @@ MIT License. Skills distilled from real engineering practice.
 
 ---
 
-## 关于作者 · 行途
+## 关于作者 · 行途技术
 
-- 公众号「行途 XingTu」（长文首发，微信搜索关注）
+- 公众号「行途技术」（长文首发，微信搜索关注）
 - GitHub / X：`@xingtu1996` ｜ 博客：https://xingtu1996.github.io
 - 方法论旗舰仓：[xingtu-ai-engineering](https://github.com/xingtu1996/xingtu-ai-engineering)
